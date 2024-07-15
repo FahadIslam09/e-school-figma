@@ -1,0 +1,302 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* Header */
+  .nav-menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-link {
+    margin-right: 0 !important;
+  }
+  
+  .sign-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .logo {
+    width: 180px;
+  }
+
+  .m_nav {
+    padding: 15px 0;
+  }
+  /* Header */
+
+  /* Banner Start */
+  .banner-title {
+    font-size: 45px;
+    line-height: 45px;
+    text-align: center;
+  }
+
+  .banner-text-2 {
+    line-height: 30px;
+  }
+
+  .banner-left {
+    justify-content: center !important;
+  }
+
+  .left {
+    text-align: center;
+  }
+
+  .left a {
+    display: flex;
+    justify-content: center;
+  }
+  /* Banner End */
+
+  .banner {
+    padding: 30px 10px 60px;
+  }
+
+  .feature {
+    padding: 70px 20px 80px;
+  }
+
+  /* Course Start */
+  .common-title h2 {
+    font-size: 30px;
+  }
+  /* Course End */
+
+  /* Carousel Start */
+  .carousel-image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;;
+  }
+
+  .carousel-img {
+    max-width: 150px;
+    margin-left: 0;
+  }
+
+  .carousel-text {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+  }
+  
+  /* Carousel End */
+
+  /* Footer */
+  .footer-top {
+    flex-direction: column;
+  }
+
+  .footer-text {
+    width: 95%;
+    margin: 0 0 40px 0;
+    text-align: center;
+  }
+
+  .footer-link {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+  /* Footer */
+}
+
+/* Very small screen */
+@media (max-width: 390.98px) {
+  .banner-title {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 320.98px) {
+  .banner-title {
+    font-size: 30px;
+  }
+
+  .date, .seat {
+    column-gap: 4px;
+  }
+
+  .date img, .seat img {
+    max-width: 19px;
+    height: 19px;
+  }
+
+  .date-text,
+  .seat-text {
+    font-size: 14px;
+  }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* Header */
+  .nav-menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .sign-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  /* Header */
+
+  /* Footer */
+  .footer-top {
+    flex-direction: column;
+  }
+
+  .footer-text {
+    width: 90%;
+    margin: 0 0 40px 0;
+    text-align: center;
+  }
+
+  .footer-link {
+    display: flex;
+    column-gap: 70px;
+    text-align: center;
+}
+  /* Footer */
+
+  /* Banner Start */
+
+  .banner-left {
+    justify-content: center !important;
+  }
+
+  .left {
+    text-align: center;
+  }
+
+  .left a {
+    display: flex;
+    justify-content: center;
+  }
+
+  .banner-img {
+    padding: 0 40px 0 40px;
+  }
+  /* Banner End */
+
+  /* Carousel Start */
+  .carousel-image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;;
+  }
+
+  .carousel-img {
+    max-width: 150px;
+    margin-left: 0;
+  }
+
+  .carousel-text {
+    text-align: center;
+  }
+  /* Carousel End */
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Header */
+  .nav-menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .sign-button {
+    display: flex;
+    justify-content: center;
+    margin-left: -28px;
+  }
+
+  .m_nav {
+    padding: 15px 0;
+  }
+  /* Header */
+
+  /* Banner Start */
+  .banner-left {
+    justify-content: center !important;
+  }
+
+  .left {
+    text-align: center;
+  }
+
+  .left a {
+    display: flex;
+    justify-content: center;
+  }
+
+  .banner-img {
+    padding: 0 40px 0 40px;
+  }
+  /* Banner End */
+
+  /* Carousel Start */
+  .carousel-img {
+    max-width: 150px;
+    margin-left: 0;
+  }
+  /* Carousel End */
+
+  /* Footer Start */
+  .footer-top {
+    flex-direction: column;
+  }
+
+  .footer-text {
+    width: 80%;
+    margin: 0 0 40px 0;
+    text-align: center;
+  }
+
+  .footer-link {
+    text-align: center;
+  }
+
+  
+  /* Footer End */
+}
+
+/* // Large devices (laptops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .carousel-img {
+    margin-left: 0;
+  }
+
+  .date, .seat {
+    column-gap: 4px;
+  }
+
+  
+  .date img, .seat img {
+    max-width: 22px;
+    height: 22px;
+  }
+
+  .date-text,
+  .seat-text {
+    font-size: 14px;
+  } 
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  
+}
+
+/* // Extra extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1400px) {
+  
+}
